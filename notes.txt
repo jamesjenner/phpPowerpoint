@@ -1,0 +1,32 @@
+
+For bullet points:
+
+http://msdn.microsoft.com/en-us/library/documentformat.openxml.drawing.textautonumberschemevalues.aspx
+
+
+Structure of a PresentationML Document:
+
+http://msdn.microsoft.com/en-us/library/gg278335.aspx
+
+Working with slide Masters:
+
+http://msdn.microsoft.com/en-us/library/gg278321.aspx
+
+Working with slide layouts:
+
+http://msdn.microsoft.com/en-us/library/gg278311.aspx
+
+
+
+DocumentForm at.OpenXml.Presentation Namespace (basically lists all the different types)
+
+http://msdn.microsoft.com/en-us/library/cc884925.aspx
+
+
+Currently half way through Master.php. Need to implement the following empty methods on the Master class:
+
+    private function processColorMap()
+    private function processSlideLayoutIdList()
+    private function processTextStyles()
+
+The last two are important, the first one most prob not required.

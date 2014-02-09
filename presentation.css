@@ -1,0 +1,192 @@
+ul.circle {list-style-type:circle;}
+ul.disc {list-style-type:disc;}
+ul.square {list-style-type:square;}
+
+/*
+  available list-style-types, refer to http://www.w3schools.com/cssref/pr_list-style-type.asp 
+    armenian
+    cjk-ideographic
+    decimal
+    decimal-leading-zero
+    georgian
+    hebrew
+    hiragana
+    hiragana-iroha
+    katakana
+    katakana-iroha
+    lower-alpha
+    lower-greek
+    lower-latin
+    lower-roman
+    upper-alpha
+    upper-latin
+    upper-roman
+*/
+
+/* 
+   The following is logic that will allow counting and allow trailing/leading 
+   characters. This could be used to support paren_both, paren_r and plain.
+   By default, all lists have a tailing period, so no need to directly 
+   support those.  
+*/
+/*
+ol {
+    counter-reset: item;
+    margin-left: 0;
+    padding-left: 0;
+}
+li {
+    display: block;
+    margin-bottom: .5em;
+    margin-left: 2em;
+}
+li:before {
+    display: inline-block;
+    content: counter(item) ") ";
+    counter-increment: item;
+    width: 2em;
+    margin-left: -2em;
+}
+*/
+
+
+ol.list_style_alpha_lower_char_paren_both {
+    list-style-type:lower-alpha;
+}
+ol.list_style_alpha_upper_char_paren_both {
+    list-style-type:upper-alpha;
+}
+ol.list_style_alpha_lower_char_paren_r {
+    list-style-type:lower-alpha;
+}
+ol.list_style_alpha_upper_char_paren_r {
+    list-style-type:upper-alpha;
+}
+ol.list_style_alpha_lower_char_period {
+    list-style-type:lower-alpha;
+}
+ol.list_style_alpha_upper_char_period {
+    list-style-type:upper-alpha;
+}
+ol.list_style_arabic_paren_both {
+    list-style-type:decimal;
+}
+ol.list_style_arabic_paren_r {
+    list-style-type:decimal;
+}
+ol.list_style_arabic_period {
+    list-style-type:decimal;
+}
+ol.list_style_arabic_plain {
+    list-style-type:decimal;
+}
+ol.list_style_roman_lower_char_paren_both {
+    list-style-type:lower-roman;
+}
+ol.list_style_roman_upper_char_paren_both {
+    list-style-type:upper-roman;
+}
+ol.list_style_romon_lower_char_paren_r {
+    list-style-type:lower-roman;
+}
+ol.list_style_roman_upper_char_paren_r {
+    list-style-type:upper-roman;
+}
+ol.list_style_roman_lower_char_period {
+    list-style-type:lower-roman;
+}
+ol.list_style_roman_upper_char_period {
+    list-style-type:upper-roman;
+}
+ol.list_style_circle_num_double_byte_plain {
+    // not supported so using decimal
+    list-style-type:decimal;
+}
+ol.list_style_circle_num_wingdings_black_plain {
+    // not supported so using decimal
+    list-style-type:decimal;
+}
+ol.list_style_circle_num_wingdings_white_plain {
+    // not supported so using decimal
+    list-style-type:decimal;
+}
+ol.list_style_arabic_double_byte_period {
+    // not supported so using decimal
+    list-style-type:decimal;
+}
+ol.list_style_arabic_double_byte_plain {
+    // not supported so using decimal
+    list-style-type:decimal;
+}
+ol.list_style_east_asian_simplified_chinese_period {
+    list-style-type:cjk-ideographic;
+}
+ol.list_style_east_asian_simplified_chinese_plain {
+    list-style-type:cjk-ideographic;
+}
+ol.list_style_east_asian_traditional_chinese_period {
+    list-style-type:cjk-ideographic;
+}
+ol.list_style_east_asian_traditional_chinese_plain {
+    list-style-type:cjk-ideographic;
+}
+ol.list_style_east_asian_japanese_double_byte_period {
+    list-style-type:katakana;
+}
+ol.list_style_east_asian_japanese_korean_plain {
+    list-style-type:hiragana;
+}
+ol.list_style_east_asian_japanese_korean_period {
+    list-style-type:hiragana;
+}
+ol.list_style_arabic_1_minus {
+    // not supported so using decimal
+    list-style-type:decimal;
+}
+ol.list_style_arabic_2_minus {
+    // not supported so using decimal
+    list-style-type:decimal;
+}
+ol.list_style_hebrew_2_minus {
+    list-style-type:hebrew;
+}
+ol.list_style_thai_alpha_period {
+    // not supported so using decimal
+    list-style-type:decimal;
+}
+ol.list_style_thai_alpha_paren_r {
+    // not supported so using decimal
+    list-style-type:decimal;
+}
+ol.list_style_thai_alpha_paren_both {
+    // not supported so using decimal
+    list-style-type:decimal;
+}
+ol.list_style_thai_num_period {
+    // not supported so using decimal
+    list-style-type:decimal;
+}
+ol.list_style_thai_num_paren_r {
+    // not supported so using decimal
+    list-style-type:decimal;
+}
+ol.list_style_thai_num_paren_both {
+    // not supported so using decimal
+    list-style-type:decimal;
+}
+ol.list_style_hindi_alpha_period {
+    // not supported so using decimal
+    list-style-type:decimal;
+}
+ol.list_style_hindi_num_period {
+    // not supported so using decimal
+    list-style-type:decimal;
+}
+ol.list_style_hindi_num_paren_r {
+    // not supported so using decimal
+    list-style-type:decimal;
+}
+ol.list_style_hindi_alpha_1_period {
+    // not supported so using decimal
+    list-style-type:decimal;
+}
